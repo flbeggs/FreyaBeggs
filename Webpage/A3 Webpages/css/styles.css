@@ -40,7 +40,8 @@
 	.button, .button:hover, .button:focus {
 		background: none;
 		border: none;
-		text-decoration: underline;
+		font-weight: bold;
+		font-size: 18px;
 		color: #969696;
 		text-shadow: none;
 		-webkit-transition: 500ms linear 0s;
