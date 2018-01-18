@@ -1,0 +1,27 @@
+div{
+  background-color: lightgrey;
+  text-align: center;
+}
+#container{
+  width: 900px;
+  background-color: none;
+  margin: 0 auto;
+}
+#header{
+  width: 900px;
+  height: 70px;
+}
+.box{
+  width: 81px;
+  height: 81px;
+  margin: 10px;
+  float: left;
+}
+#clear{
+  clear:both;
+}
+#footer{
+  width: 900px;
+  height: 30px;
+  float:left;
+}

@@ -1,0 +1,27 @@
+div{
+  background-color: lightgrey;
+  text-align: center;
+  margin: 10px;
+}
+#container{
+  width: 910px;
+  background-color: none;
+  margin: 0 auto;
+}
+#header{
+  width: 900px;
+  height: 70px;
+}
+#rightmenu{
+  width: 290px;
+  height: 430px;
+  margin-right: auto;
+  float: right;
+  margin-bottom: auto;
+}
+.leftitem{
+  width: 600px;
+  height: 100px;
+  margin-left: auto;
+  float: left;
+}
