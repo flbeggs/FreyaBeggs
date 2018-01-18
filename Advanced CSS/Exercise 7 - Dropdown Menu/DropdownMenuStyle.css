@@ -1,4 +1,4 @@
-ul li ul li{
+ul > li > ul{
    display: none;
    position: absolute;
    color: white;
