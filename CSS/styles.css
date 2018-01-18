@@ -1,0 +1,118 @@
+	h1 {
+		font-family:sans-serif;
+		color:green;
+	}
+	
+	p {
+		color:grey;
+	}
+	
+	img {
+		width:100px;
+		border:5px dashed blue;
+	}
+	
+	ul {
+		width:100px;
+	}
+	
+	li {
+		padding:0px;
+		border:1px solid black;
+	}
+	
+	.box {
+		background-color:blue;
+		width:100px;
+		height:100px;
+	}
+	
+	.para {
+			color:green;
+			width:100px;
+			border:3px dashed orange;
+	}
+	
+	.backgroundimage {
+			width:200px;
+			height:325px;
+			border: 0px solid;
+	}
+	
+	#hello {
+			font-size:30px;
+			font-weight:bold;
+	}
+	
+	#box {
+			text-decoration:line-through;
+			width:100px;
+			text-align:center;
+			background-color:green;
+			border-bottom:5px dotted orange;
+	}
+	
+	#fontchange {
+			font-family:cursive;
+			color:green;
+	}
+	
+	p span {
+		background-color:red;
+		color:blue;
+		font-size:50px;
+	}
+	
+	ul li {
+			color:blue;
+			text-decoration:underline;
+			border:0px solid;
+	}
+	
+	ul li a {
+			color:orange;
+			text-decoration:line-through;
+			border:0px solid;
+	}
+	
+	p > span {
+			color:red;
+			font-family:cursive;
+	}
+	
+	span > span {
+			color:blue;
+			font-size:30px;
+	}
+	
+	ul > il {
+			color:blue;
+			text-decoration:line-through;
+	}
+	
+	li > a {
+			color:orange;
+			text-decoration:none;
+	}
+	
+	a:hover {
+			color:orange;
+	}
+	
+	li a:hover {
+			text-decoration:none;
+			color:red;
+	}
+	
+	p:first-of-type {
+			display:none;
+	}
+	
+	span {
+			background-color:grey;
+	}
+	
+	div:hover p {
+			display:block;
+	}
+	

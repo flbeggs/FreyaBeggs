@@ -1,0 +1,117 @@
+	/* CSS that applies to the whole webpage */
+	* {
+	/* sets font and font colour */
+	font-family: Arial, Verdana, sans-serif;
+	color: #969696;
+	}
+	/* CSS that applies to elements within html section */
+	html {
+		/* sets the background of the webpage and styles */
+		background: url(background-image.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	/* CSS that applies to the body element */
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	/* CSS styles for the content section of the webpage */
+	#content {
+		/* styles for the content div in the webpage */
+		padding-top: 125px;
+		padding-bottom: 50px;
+		text-align: center;
+		position: absolute;
+		left: 2px;
+		top: 0px;
+		bottom: 0px;
+		opacity: 0.7;
+		width: 50%;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	
+	.button, .button:hover, .button:focus {
+		background: none;
+		border: none;
+		text-decoration: underline;
+		color: #969696;
+		text-shadow: none;
+		-webkit-transition: 500ms linear 0s;
+		-moz-transition: 500ms linear 0s;
+		transition: 500ms linear 0s;
+		outline: 0 none;
+	}
+	
+	.button:hover, .button:focus {
+		color: white;
+		text-shadow: -1px 1px 8px #6c00e1, 1px -1px 8px #6d00b2;
+	}
+	
+	/* CSS sytles for the footer div of the webpage */
+	#head {
+		text-align: center;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		opacity: 0.9;
+		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+	}
+	/* CSS sytles for the footer div of the webpage */
+	#footer {
+		left: 0;
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		opacity: 0.9;
+		background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+	}
+	/* CSS sytles for the headerbackground div of the webpage */
+	#headerbackground {
+		background-color: #101010;
+		position: absolute;
+		left: 2px;
+		top: 0px;
+		bottom: 0px;
+		z-index: -1;
+		opacity: 0.7;
+		width: 50%;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 25%;
+		margin-right: 25%;
+		border: 1px solid #000000;
+		/* adds box with gradient to the outside (border) of the navbar element */
+		border-top: 2px solid #969696;
+		border-bottom: 2px solid #202020;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		background-position: 0 0, 100% 0;
+		background-repeat: no-repeat;
+		-webkit-background-size: 2px 100%;
+		-moz-background-size: 2px 100%;
+		background-size: 2px 100%;
+		background-image: -webkit-linear-gradient(top, #969696 0%, #202020 100%), -webkit-linear-gradient(top, #969696 0%, #202020 100%);
+		background-image: -moz-linear-gradient(top, #969696 0%, #202020 100%), -moz-linear-gradient(top, #969696 0%, #202020 100%);
+		background-image: -o-linear-gradient(top, #969696 0%, #202020 100%), -o-linear-gradient(top, #969696 0%, #202020 100%);
+		background-image: linear-gradient(to bottom, #969696 0%, #202020 100%), linear-gradient(to bottom, #969696 0%, #202020 100%);
+		
+	}
+	/* CSS sytles for the header div of the webpage */
+	#header {
+		text-align: center;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	
+	#filler {
+		display: none;
+	}

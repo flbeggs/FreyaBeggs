@@ -1,0 +1,43 @@
+div{
+  background-color: lightgrey;
+  margin: 10px;
+  text-align: center;
+}
+#container{
+  width: 900px;
+  background-color: none;
+  margin: 0 auto;
+}
+#header{
+  width: 900px;
+  height: 70px;
+  margin-left: 0px;
+}
+#leftmenu{
+  width: 245px;
+  height: 500px;
+  float: left;
+  margin: auto;
+}
+#rightmenu{
+  width: 245px;
+  height: 500px;
+  float:right;
+  margin:auto;
+}
+#maincontent{
+  width: 390px;
+  height: 500px;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#clear{
+  clear:both;
+}
+#footer{
+  width: 900px;
+  height: 30px;
+  float:left;
+  margin-left: 0px;
+}
