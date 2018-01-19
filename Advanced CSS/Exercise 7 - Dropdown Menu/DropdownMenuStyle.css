@@ -1,11 +1,6 @@
 #menu li:nth-child(2) ul li{
    display: none;
 }
-#menu li:nth-child(2):hover ul li{
-  background-color: lightgrey;
-  color: black;
-  display: block;
-}
 #menu li:nth-child(3) ul li{
    display: none;
 }
@@ -13,12 +8,29 @@
   background-color: lightgrey;
   color: black;
   display: block;
+  position: absolute;
+  z-index: 1;
+  left: 310px;
+  width: 150px;
+  margin: 1px;
+}
+#menu li:nth-child(2):hover ul li{
+  background-color: lightgrey;
+  color: black;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 175px;
+  float: left;
+  width: 150px;
+  margin: 1px;
 }
 menu > li{
    width: 100px;
    background-color: #6b6b6b;
    margin: 1px;
    width: 100px;
+   float: left;
 }
 a{
   background-color: grey;
@@ -33,14 +45,6 @@ a{
 a:hover{
   background-color: lightgrey;
 }
-#menu li:nth-child(2):hover ul li a {
-  color: white;
-}
-
-#menu li:nth-child(3):hover ul li a {
-  color: white;
-}
-
 #menu li:nth-child(2) ul li:hover {
   background-color: #6b6b6b;
 }
