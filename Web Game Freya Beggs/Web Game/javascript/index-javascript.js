@@ -24,7 +24,7 @@ function SelectRoom(roomIndex)
 	
 	for (var i = 0; i < roomArray[roomIndex].choices.length; i++)
 	{
-		if (roomIndex == 0 || roomIndex == 2)
+		if (roomIndex == 0)
 		{
 			room = i + 1;
 		}
