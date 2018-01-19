@@ -1,18 +1,32 @@
-ul > li > ul{
+#menu li:nth-child(2) ul li{
    display: none;
    position: absolute;
    color: white;
    width: 100px;
    z-index: 1;
    background-color: #6b6b6b;
+   margin: 1px;
+   min-width: 100px; 
 }
-ul li ul li a:hover{
+#menu li:nth-child(2):hover ul li{
   background-color: lightgrey;
   color: black;
+  display: block;
 }
-#menu{
-  position: relative;
-  display: inline-block;
+#menu li:nth-child(3) ul li{
+   display: none;
+   position: absolute;
+   color: white;
+   width: 100px;
+   z-index: 1;
+   background-color: #6b6b6b;
+   margin: 1px;
+   min-width: 100px; 
+}
+#menu li:nth-child(3):hover ul li{
+  background-color: lightgrey;
+  color: black;
+  display: block;
 }
 a{
   background-color: grey;
