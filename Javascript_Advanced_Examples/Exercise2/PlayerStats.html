@@ -6,7 +6,12 @@
 <script>
 function OnLoad() 
 {
-	
+	var playerName = localStorage.getItem("playername");
+	var playerHealth = localStorage.getItem("playerhealth");
+	var playerColour = localStorage.getItem("playercolour");
+	document.getElementById("playername").innerHTML = playerName;
+	document.getElementById("playerhealth").innerHTML = playerHealth;
+	document.getElementById("playercolour").style.backgroundColor = playerColour;
 }
 </script>
 </head>
