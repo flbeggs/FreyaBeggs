@@ -13,24 +13,14 @@ function SelectRoom(roomIndex)
 	document.getElementById("roomText").innerHTML = roomArray[roomIndex].text;
 	document.getElementById("roomImage").src = roomArray[roomIndex].image;
 	document.getElementById("roomChoices").innerHTML = "";
-	
-	var room = 0
-	
+
 	for (var i = 0; i < roomArray[roomIndex].choices.length; i++)
 	{
-		if (roomIndex == 0)
-		{
-			room = i + 1;
-		}
-		else
-		{
-			room = i + i;
-		}
-		
-		var theButton = "<button value='" + i + "' onClick=SelectRoom(" + (room) + ")>" + roomArray[roomIndex].choices[i].text + "</button>" + "<br />";
-		
+		var theButton = "<button value='" + i + "' onClick=SelectRoom(" +
+				(roomArray[roomIndex].choices[i].index) + ")>" + roomArray[roomIndex].choices[i].text + "</button><br />";
 		document.getElementById("roomChoices").innerHTML += theButton;
 	}
 }
+
 
 

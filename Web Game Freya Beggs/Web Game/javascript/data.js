@@ -74,7 +74,7 @@ var roomArray = [
 			},
 			{
 				text:'Ask party members to keep watch',
-				index:3
+				index:13
 			},
 			{
 				text:'Ask Grigor to keep watch',
