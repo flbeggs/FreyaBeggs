@@ -24,46 +24,6 @@ function OnLoad()
 	SelectRoom(0);
 }
 
-/*
-Change Text with button Javascript
-*/
-
-function theBeginning() {
-	var name = document.getElementById("name").value
-	
-	var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-	
-	var y = document.getElementById("hello");
-    if (y.style.display === "none") {
-        y.style.display = "block";
-    } else {
-        y.style.display = "none";
-    }
-	
-	var z = document.getElementById("filler");
-    if (z.style.display === "block") {
-        z.style.display = "none";
-    } else {
-        z.style.display = "block";
-    }
-	
-	var a = document.getElementById("button");
-    if (a.style.display === "none") {
-        a.style.display = "block";
-    } else {
-        a.style.display = "none";
-    }
-	
-    document.getElementById("start").innerHTML = "Start" + " " + name;
-	
-	
-}
-
 function SelectRoom(roomIndex)
 {
 	document.getElementById("roomTitle").innerHTML = roomArray[roomIndex].title;
