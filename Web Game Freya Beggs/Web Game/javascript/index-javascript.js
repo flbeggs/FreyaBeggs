@@ -2,12 +2,6 @@
 Index page Javascript
 */
 
-function StorePlayerData()
-{
-	var playerName = document.getElementById("playername").value;
-	localStorage.setItem("playername", playerName);
-}
-
 function OnLoad()
 {
 	SelectRoom(0);
