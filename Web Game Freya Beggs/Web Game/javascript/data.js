@@ -1,6 +1,6 @@
 var roomArray = [
 	{
-		title:'Welcome', /* 0 */
+		title:'Welcome ' + localStorage.getItem("playername"), /* 0 */
 		text:'',
 		image:'images/drow.png',
 		choices:[
