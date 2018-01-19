@@ -6,12 +6,6 @@ function StorePlayerData()
 {
 	var playerName = document.getElementById("playername").value;
 	localStorage.setItem("playername", playerName);
-	
-	var playerHealth = document.getElementById("playerhealth").value;
-	localStorage.setItem("playerhealth", playerHealth);
-	
-	var playerColour = document.getElementById("playercolour").value;
-	localStorage.setItem("playercolour", playerColour);
 }
 
 function OnLoad()
@@ -23,6 +17,7 @@ function SelectRoom(roomIndex)
 {
 	document.getElementById("roomTitle").innerHTML = roomArray[roomIndex].title;
 	document.getElementById("roomText").innerHTML = roomArray[roomIndex].text;
+	document.getElementById("roomImage").src = roomArray[roomIndex].image;
 	document.getElementById("roomChoices").innerHTML = "";
 	
 	var room = 0

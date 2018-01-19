@@ -2,6 +2,7 @@ var roomArray = [
 	{
 		title:'Welcome',
 		text:'' ,
+		image:'images/drow.png',
 		choices:[
 			{
 				text:'Continue',
@@ -12,6 +13,7 @@ var roomArray = [
 	{
 		title:'room 2',
 		text:'you are standing room 2',
+		image:'images/drow.png',
 		choices:[
 			{
 				text:'Go to room 1',
@@ -26,6 +28,7 @@ var roomArray = [
 	{
 		title:'room 3',
 		text:'you are standing room 3',
+		image:'images/drow.png',
 		choices:[
 			{
 				text:'Go to room 2',
