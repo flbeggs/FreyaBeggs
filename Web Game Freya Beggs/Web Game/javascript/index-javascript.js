@@ -33,7 +33,7 @@ function SelectRoom(roomIndex)
 			room = i + i;
 		}
 		
-		var theButton = "<button value='" + i + "' onClick=SelectRoom(" + (room) + ")>" + roomArray[roomIndex].choices[i].text + "</button>";
+		var theButton = "<button value='" + i + "' onClick=SelectRoom(" + (room) + ")>" + roomArray[roomIndex].choices[i].text + "</button>" + "<br />";
 		
 		document.getElementById("roomChoices").innerHTML += theButton;
 	}
