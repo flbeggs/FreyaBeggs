@@ -1,12 +1,5 @@
 #menu li:nth-child(2) ul li{
    display: none;
-   position: absolute;
-   color: white;
-   width: 100px;
-   z-index: 1;
-   background-color: #6b6b6b;
-   margin: 1px;
-   min-width: 100px; 
 }
 #menu li:nth-child(2):hover ul li{
   background-color: lightgrey;
@@ -15,18 +8,17 @@
 }
 #menu li:nth-child(3) ul li{
    display: none;
-   position: absolute;
-   color: white;
-   width: 100px;
-   z-index: 1;
-   background-color: #6b6b6b;
-   margin: 1px;
-   min-width: 100px; 
 }
 #menu li:nth-child(3):hover ul li{
   background-color: lightgrey;
   color: black;
   display: block;
+}
+menu > li{
+   width: 100px;
+   background-color: #6b6b6b;
+   margin: 1px;
+   width: 100px;
 }
 a{
   background-color: grey;
@@ -40,8 +32,21 @@ a{
 }
 a:hover{
   background-color: lightgrey;
-  color: black;
-  display: block;
+}
+#menu li:nth-child(2):hover ul li a {
+  color: white;
+}
+
+#menu li:nth-child(3):hover ul li a {
+  color: white;
+}
+
+#menu li:nth-child(2) ul li:hover {
+  background-color: #6b6b6b;
+}
+
+#menu li:nth-child(3) ul li:hover {
+  background-color: #6b6b6b;
 }
 li{
   list-style-type: none;
