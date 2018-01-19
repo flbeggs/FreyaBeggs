@@ -2,22 +2,17 @@
 Index page Javascript
 */
 
-var today = new Date(); //Create a new date
-var hourNow = today.getHours(); //Find the current hour
-var greeting;
-
-//Display the appropriate message based on the current time
-if (hourNow >= 18) {
-	greeting = "Good Evening";
-} else if (hourNow >= 12) {
-	greeting = "Good Afternoon";
-} else if (hourNow >= 0) {
-	greeting = "Good Morning";
-} else {
-	greeting = "Welcome";
+function StorePlayerData()
+{
+	var playerName = document.getElementById("playername").value;
+	localStorage.setItem("playername", playerName);
+	
+	var playerHealth = document.getElementById("playerhealth").value;
+	localStorage.setItem("playerhealth", playerHealth);
+	
+	var playerColour = document.getElementById("playercolour").value;
+	localStorage.setItem("playercolour", playerColour);
 }
-
-document.getElementById("hello").textContent = greeting;
 
 function OnLoad()
 {

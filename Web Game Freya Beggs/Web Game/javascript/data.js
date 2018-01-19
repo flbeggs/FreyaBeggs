@@ -1,10 +1,10 @@
 var roomArray = [
 	{
-		title:'room 1',
-		text:'you are standing room 1',
+		title:'Welcome',
+		text:'' ,
 		choices:[
 			{
-				text:'Go to room 2',
+				text:'Continue',
 				index:1
 			}
 		]

@@ -37,7 +37,7 @@
 		margin-right: 25%;
 	}
 	
-	.button, .button:hover, .button:focus {
+	button, button:hover, button:focus {
 		background: none;
 		border: none;
 		font-weight: bold;
@@ -50,7 +50,7 @@
 		outline: 0 none;
 	}
 	
-	.button:hover, .button:focus {
+	button:hover, button:focus {
 		color: white;
 		text-shadow: -1px 1px 8px #6c00e1, 1px -1px 8px #6d00b2;
 	}
@@ -111,4 +111,21 @@
 		text-align: center;
 		margin-top: 1%;
 		margin-bottom: 1%;
+	}
+	.input, .input:hover, .input:focus {
+		background: none;
+		border: none;
+		font-weight: bold;
+		font-size: 18px;
+		color: #969696;
+		text-shadow: none;
+		-webkit-transition: 500ms linear 0s;
+		-moz-transition: 500ms linear 0s;
+		transition: 500ms linear 0s;
+		outline: 0 none;
+	}
+	
+	.input:hover, .input:focus {
+		color: white;
+		text-shadow: -1px 1px 8px #6c00e1, 1px -1px 8px #6d00b2;
 	}
